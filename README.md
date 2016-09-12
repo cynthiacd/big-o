@@ -81,7 +81,7 @@ end
 Snippet 7 - Big O:
 ```ruby
 # this is insertion sort
-(2..num.length).each do |j|
+(2...num.length).each do |j|
     key = num[j]
     i = j - 1
     while i > 0 and num[i] > key
@@ -97,7 +97,7 @@ Snippet 8 - Big O:
 # this is selection sort
 n.times do |i|
   index_min = i
-  (i + 1).upto(n) do |j|
+  (i + 1).upto(n-1) do |j|
     index_min = j if a[j] < a[index_min]
   end
   a[i], a[index_min] = a[index_min], a[i] if index_min != i
