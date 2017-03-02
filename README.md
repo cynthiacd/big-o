@@ -6,7 +6,8 @@
 
 
 ## Assignment - Determine the big O
-Give the efficiency of each of the following code snippets.
+1) Give the efficiency of each of the following code snippets and
+2) Justify your answer
 
 ### Examples
 [Examples](examples.md)
@@ -71,7 +72,7 @@ end
 
 Snippet 6 - Big O:
 ```ruby
-numbers = [1,2,3,4,5,6,7,8,9,10]
+numbers = # some array (you don't know contents)
 
 def print_array(array)
     array.each {|num| puts num}
