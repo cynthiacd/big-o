@@ -14,7 +14,7 @@
 
 ### Problems for you
 
-Snippet 1 - Big O:
+Snippet 1 - Big O: Linear 
 ```ruby
 def largest?(array, value)
   array.each do |item|
@@ -24,7 +24,7 @@ def largest?(array, value)
 end
 ```
 
-Snippet 2 - Big O:
+Snippet 2 - Big O: linear
 ```ruby
 def info_dump(customers)
   puts "Customer Names: "
@@ -38,14 +38,14 @@ def info_dump(customers)
 end
 ```
 
-Snippet 3 - Big O:
+Snippet 3 - Big O: constant
 ```ruby
 def first_element_is_red?(array)
   array[0] == 'red' ? true : false
 end
 ```
 
-Snippet 4 - Big O:
+Snippet 4 - Big O: n^2 (quadratic)
 ```ruby
 def duplicates?(array)
   array.each_with_index do |item1, index1|
